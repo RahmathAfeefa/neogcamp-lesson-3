@@ -11,6 +11,8 @@ hr {
     --primary-color: #075985;
 }
 
+
+
 /** container **/
 .container {
     padding-left: 1rem;
@@ -23,6 +25,8 @@ hr {
     margin: auto;
 }
 
+
+/*link*/
 .link {
     text-decoration: none;
     margin :auto;
@@ -53,4 +57,58 @@ hr {
 {
     display: inline;
     padding : 0rem 0.5rem;
+}
+
+
+/* navigation*/
+
+.navigation{
+    background-color: var(--primary-color);
+    color :white;
+    padding: 1rem ;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand
+{
+    font-weight: medium;
+    font-size: 1.1rem;
+}
+.navigation .nav-pills
+{
+    text-align: right;
+    
+}
+
+.navigation .link
+{
+    color: white;
+    
+}
+.navigation .link-active
+{
+    font-weight: bold;
+}
+
+/* header */
+
+.hero
+{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img
+{
+    width : 350px;
+    display: block;
+    margin: auto;
+    
+}
+.hero .hero-heading
+{
+    color : gray;
+    padding-top: 1rem;
+}
+.hero .hero-heading .heading-bold
+{
+    color: var(--primary-color);
 }
