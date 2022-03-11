@@ -3,12 +3,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 hr {
-    margin : 1.5rem 0rem;
+    margin: 1.5rem 0rem;
 }
 
 :root {
     --primary-color: #075985;
+    --dark-gray : #71717a;
+    --off-white: #cbd5e1;
 }
 
 
@@ -29,86 +32,97 @@ hr {
 /*link*/
 .link {
     text-decoration: none;
-    margin :auto;
+    margin: auto;
     padding: 0.5rem 1rem;
-    
+
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-    
+
 
 }
 
-.link-secondary{
-    color : var(--primary-color);
+.link-secondary {
+    color: var(--primary-color);
     border-radius: 0.5rem;
-    border:1px solid var(--primary-color)
-
+    border: 1px solid var(--primary-color)
 }
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-inline
-{
+.list-inline {
     display: inline;
-    padding : 0rem 0.5rem;
+    padding: 0rem 0.5rem;
 }
 
 
 /* navigation*/
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    color :white;
-    padding: 1rem ;
+    color: white;
+    padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-.navigation .nav-brand
-{
+
+.navigation .nav-brand {
     font-weight: medium;
     font-size: 1.1rem;
 }
-.navigation .nav-pills
-{
+
+.navigation .nav-pills {
     text-align: right;
-    
+
 }
 
-.navigation .link
-{
+.navigation .link {
     color: white;
-    
+
 }
-.navigation .link-active
-{
+
+.navigation .link-active {
     font-weight: bold;
 }
 
 /* header */
 
-.hero
-{
+.hero {
     padding: 2rem;
     text-align: center;
 }
-.hero .hero-img
-{
-    width : 350px;
+
+.hero .hero-img {
+    width: 350px;
     display: block;
     margin: auto;
-    
+
 }
-.hero .hero-heading
-{
-    color : gray;
+
+.hero .hero-heading {
+    color: var(--dark-gray)
     padding-top: 1rem;
 }
-.hero .hero-heading .heading-bold
-{
+
+.hero .hero-heading .heading-bold {
     color: var(--primary-color);
+}
+
+/* section */
+
+.section
+{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+   
+}
+.ow
+{
+    background-color: var(--off-white);
 }
