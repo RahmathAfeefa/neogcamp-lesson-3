@@ -11,7 +11,7 @@ hr {
 :root {
     --primary-color: #075985;
     --dark-gray : #71717a;
-    --off-white: #cbd5e1;
+    --off-white: #f4f4f5
 }
 
 
@@ -125,4 +125,24 @@ hr {
 .ow
 {
     background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    
+}
+.footer .link
+{
+    color: white;
+    
+}
+.footer ul
+{
+    padding-inline-start: 0px;
 }
