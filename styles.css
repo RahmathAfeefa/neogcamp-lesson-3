@@ -3,6 +3,7 @@ body {
     font-family: 'Merriweather', serif;
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    padding: 0rem;
 }
 
 hr {
@@ -15,8 +16,8 @@ hr {
     --off-white: #f4f4f5
 }
 
-.heading-space {
-    padding-top: 1rem;
+.color {
+    color: var(--dark-gray);
 }
 
 
@@ -56,6 +57,7 @@ hr {
 
 .list-non-bullet {
     list-style: none;
+    color: var(--dark-gray);
 }
 
 .list-inline {
