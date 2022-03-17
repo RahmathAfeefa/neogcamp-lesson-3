@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Montserrat:wght@300;700&display=swap');
 body {
     font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 
@@ -10,7 +11,7 @@ hr {
 
 :root {
     --primary-color: #075985;
-    --dark-gray: #71717a;
+    --dark-gray: #404040;
     --off-white: #f4f4f5
 }
 
@@ -37,7 +38,7 @@ hr {
 .link {
     text-decoration: none;
     margin: auto;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .link-primary {
@@ -48,8 +49,9 @@ hr {
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color)
+    font-weight: bold;
+    /* border-radius: 0.5rem;
+    border: 1px solid var(--primary-color) */
 }
 
 .list-non-bullet {
@@ -142,5 +144,10 @@ hr {
 }
 
 .footer ul {
-    padding-inline-start: 0px;
+    padding-inline-start: px;
+}
+
+.footer-header {
+    color: white;
+    padding: 0.2rem;
 }
