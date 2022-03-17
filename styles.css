@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0px;
 }
 
@@ -11,17 +10,20 @@ hr {
 
 :root {
     --primary-color: #075985;
-    --dark-gray : #71717a;
+    --dark-gray: #71717a;
     --off-white: #f4f4f5
 }
 
+.heading-space {
+    padding-top: 1rem;
+}
 
 
 /** container **/
+
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
-
 }
 
 .container-center {
@@ -31,19 +33,17 @@ hr {
 
 
 /*link*/
+
 .link {
     text-decoration: none;
     margin: auto;
     padding: 0.5rem 1rem;
-
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
-
-
 }
 
 .link-secondary {
@@ -78,17 +78,16 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
-
 }
 
 .navigation .link {
     color: white;
-
 }
 
 .navigation .link-active {
     font-weight: bold;
 }
+
 
 /* header */
 
@@ -101,50 +100,47 @@ hr {
     width: 350px;
     display: block;
     margin: auto;
-
 }
 
 .hero .hero-heading {
-    color: var(--dark-gray)
-    padding-top: 1rem;
+    color: var(--primary-color);
+    padding: 0rem;
 }
 
-.hero .hero-heading .heading-bold {
-    color: var(--primary-color);
+.hero .heading-bold {
+    color: var(--dark-gray);
     text-align: center;
 }
+
 
 /* section */
 
-.section
-{
+.section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
-   
 }
-.ow
-{
+
+.ow {
     background-color: var(--off-white);
 }
 
+
 /* footer */
 
-.footer
-{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem;
     text-align: center;
     border-top-right-radius: 1rem;
-    
 }
-.footer .link
-{
+
+.footer .link {
     color: white;
-    
 }
-.footer ul
-{
+
+.footer ul {
     padding-inline-start: 0px;
 }
