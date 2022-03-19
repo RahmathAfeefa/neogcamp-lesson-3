@@ -96,19 +96,19 @@ hr {
 /* header */
 
 .hero {
-    padding: 2rem;
     text-align: center;
+    padding: 0.5rem;
 }
 
 .hero .hero-img {
     width: 350px;
     display: block;
     margin: auto;
+    padding-top: 1rem;
 }
 
-.hero .hero-heading {
+.hero-heading {
     color: var(--primary-color);
-    padding: 0rem;
 }
 
 .heading-bold {
@@ -121,7 +121,7 @@ hr {
 /* section */
 
 .section {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .section h1 {
