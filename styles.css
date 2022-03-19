@@ -111,9 +111,10 @@ hr {
     padding: 0rem;
 }
 
-.hero .heading-bold {
+.heading-bold {
     color: var(--dark-gray);
-    text-align: center;
+    /* text-align: center;
+    padding-top: 20rem; */
 }
 
 
